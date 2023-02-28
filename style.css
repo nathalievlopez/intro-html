@@ -1,0 +1,18 @@
+body{
+    background-color: rgba(20, 12, 32, 0.76);
+    color: white;
+}
+p{
+    color: rgb(192, 76, 8);
+    font-size: 15px;
+}
+span{
+    color: red;
+    font-size: 30px;
+}
+button{
+
+    background-color: rgb(145, 13, 13);
+    color: blanchedalmond;
+    padding: 10px 20px;
+}
