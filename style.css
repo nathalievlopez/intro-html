@@ -1,3 +1,4 @@
+/*control de imagen con tipos*/
 body{
     background-color: rgba(255, 255, 255, 0.76);
     color: rgb(0, 0, 0);
@@ -23,4 +24,83 @@ table{
 td{
     border: 2px solid #686868;
     padding: 15px;
+}
+/* control de imagen con ids*/
+#contenedor1{
+    background-color: green;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#contenedor2{
+    background-color: blue;
+    border: 1px solid black;
+    width: 100px;
+    padding: 10px;
+    height: 100px;
+}
+#contenedor3{
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 10px;
+    height: 100px;
+}
+#kakashi{
+    width: 340px;
+    height: 200px;
+}
+#pain{
+    width: 290px;
+    height: 200px;
+}
+#contenedor2:hover{
+    background-color: red;
+}
+#contenedor3:hover{
+    background-color: rgb(131, 14, 240);
+}
+/* control de imagen con clases*/
+.control{
+    background-color: yellow;
+}
+.control:focus{
+    background-color: orange;
+}
+/*otorgarle la fuente relacionada a la clase titulos*/ 
+.titulos{
+    font-family: 'Tilt Neon', cursive;
+}
+.notitulos{
+    font-family: 'Tilt Neon', cursive;
+font-family: 'Tilt Warp', cursive;
+}
+/*colocar una imagen de fondo con un div y una clase imagen*/
+.imagen{
+    background-image: url("prueba2.jpg");
+    width: 600px;
+    height: 400px;
+    background-position: center top;
+    background-size: cover;
+   /* border: 5px solid black; linea solida*/
+   /* border: 5px dotted black; puntos*/
+   /* border: 5px dashed black; rayas */
+    border: 5px double black;
+    margin: 10px;
+    padding: 20px;
+}
+.container{
+    color: white;
+    padding: 200px 20px;
+
+}
+/*gradiente generada por cssgradient.io*/
+.gradiente{
+    width: 500px;
+    height: 500px;
+    background: rgb(63,94,251);
+background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.xd{
+   /* text-align: center;*/
+    padding: 245px 250px ;
 }
