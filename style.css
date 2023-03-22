@@ -104,3 +104,77 @@ background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%
    /* text-align: center;*/
     padding: 245px 250px ;
 }
+.alineacion{
+    text-align: justify;
+     /* sombra en el texto;*/
+    text-shadow: 1px 2px 4px green;
+}
+.caja-3{
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 3px 6px rgb(250, 74, 4);
+}
+.caja-4{
+    width: 80px;
+    height: 80px;
+    border: 1px black;
+    /* relacionar la nimacion creada a la caja ;*/
+    animation: mi-animacion 5s;
+
+}
+/* hacer animaciones con base en porcentajes y tiempo */
+@keyframes mi-animacion{
+    0%{
+        background-color: red;
+        width: 50px;
+        height: 50px;
+        
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+        margin-left: 100px;
+    }
+}
+#circle {
+    background: rgb(255, 0, 0);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    box-shadow: 6px 5px 4px rgb(126, 126, 126);
+    animation: circulo 8s;
+
+}
+@keyframes circulo{
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: orange;
+        margin-left: 200px;
+        margin-top: 0px;
+        margin-bottom: 200px;
+        
+    }
+    50%{
+        background-color: purple;
+        margin-top: 200px;
+        margin-left: 200px;
+        
+    }
+    75%{
+        background-color: pink;
+        margin-left: 0px;
+        margin-top: 200px;
+    }
+    100%{
+        background-color: red;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
